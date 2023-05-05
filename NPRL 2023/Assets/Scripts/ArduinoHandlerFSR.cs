@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class ArduinoHandlerFSR : ArduinoHandler
 {
-    const int MAX_FSR_READING = 255;
+    const int MAX_FSR_READING = 512;
 
     [SerializeField]
     float MIN_SCALE = 0;
@@ -33,7 +33,7 @@ public class ArduinoHandlerFSR : ArduinoHandler
         int val = int.Parse(split[1]);
 
         //Map from val/MAX_FSR_READING to a value between MIN_ and MAX_SCALE.
-        float newScale = Mathf.Lerp(MIN_SCALE, MAX_SCALE, val / MAX_FSR_READING);
+        float newScale = Mathf.Lerp(MIN_SCALE, MAX_SCALE, (float)val / MAX_FSR_READING);
 
         //Update the scale.
         trans[idx].localScale = new Vector3(newScale, NON_CHANGING_SCALE, NON_CHANGING_SCALE);

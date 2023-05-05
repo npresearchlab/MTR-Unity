@@ -356,60 +356,60 @@ AnimatorController:
   - serializedVersion: 5
     m_Name: Thumb Layer
     m_StateMachine: {fileID: -5732369455733403318}
-    m_Mask: {fileID: 0}
+    m_Mask: {fileID: 31900000, guid: a3e7a42e8db436e48be11a0ffa3afda9, type: 2}
     m_Motions: []
     m_Behaviours: []
     m_BlendingMode: 0
     m_SyncedLayerIndex: -1
-    m_DefaultWeight: 0
+    m_DefaultWeight: 1
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
   - serializedVersion: 5
     m_Name: Pointer Layer
     m_StateMachine: {fileID: 5163645573107736820}
-    m_Mask: {fileID: 0}
+    m_Mask: {fileID: 31900000, guid: 1569169408931dd4897a7e2c6ff02919, type: 2}
     m_Motions: []
     m_Behaviours: []
     m_BlendingMode: 0
     m_SyncedLayerIndex: -1
-    m_DefaultWeight: 0
+    m_DefaultWeight: 1
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
   - serializedVersion: 5
     m_Name: Middle Layer
     m_StateMachine: {fileID: -4684595531258086541}
-    m_Mask: {fileID: 0}
+    m_Mask: {fileID: 31900000, guid: ea8e5dd47297deb43a763ba43736b16b, type: 2}
     m_Motions: []
     m_Behaviours: []
     m_BlendingMode: 0
     m_SyncedLayerIndex: -1
-    m_DefaultWeight: 0
+    m_DefaultWeight: 1
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
   - serializedVersion: 5
     m_Name: Ring Layer
     m_StateMachine: {fileID: 5818143936587989741}
-    m_Mask: {fileID: 0}
+    m_Mask: {fileID: 31900000, guid: 068aca5e9010b7d46b4fa533384ba4cd, type: 2}
     m_Motions: []
     m_Behaviours: []
     m_BlendingMode: 0
     m_SyncedLayerIndex: -1
-    m_DefaultWeight: 0
+    m_DefaultWeight: 1
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
   - serializedVersion: 5
     m_Name: Pinky Layer
     m_StateMachine: {fileID: -7446932057649877479}
-    m_Mask: {fileID: 0}
+    m_Mask: {fileID: 31900000, guid: 5e30391397257bf41b0f1537403a16d5, type: 2}
     m_Motions: []
     m_Behaviours: []
     m_BlendingMode: 0
     m_SyncedLayerIndex: -1
-    m_DefaultWeight: 0
+    m_DefaultWeight: 1
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
